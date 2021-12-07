@@ -199,7 +199,7 @@ class ZabbixSender
                 break;
         }
 
-        $this->checkResponse($socket);
+        return $this->checkResponse($socket);
     }
 
     /**
@@ -280,5 +280,6 @@ class ZabbixSender
                 'zabbix server returned non-successfull response'
             );
         }
+        return $zabbixResponse;
     }
 }
