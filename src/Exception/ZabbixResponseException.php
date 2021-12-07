@@ -1,6 +1,6 @@
 <?php
 
-namespace Zarplata\Zabbix\Exception;
+namespace Breenstorm\Zabbix\Exception;
 
 class ZabbixResponseException extends \Exception
 {
