@@ -1,8 +1,8 @@
 <?php
 
-namespace Zarplata\Zabbix;
+namespace Breenstorm\Zabbix;
 
-use Zarplata\Zabbix\Exception\ZabbixResponseException;
+use Breenstorm\Zabbix\Exception\ZabbixResponseException;
 
 /**
  * Response class - represents a Zabbix response.
