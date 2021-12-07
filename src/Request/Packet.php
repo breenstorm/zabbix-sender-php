@@ -1,8 +1,8 @@
 <?php
 
-namespace Zarplata\Zabbix\Request;
+namespace Breenstorm\Zabbix\Request;
 
-use Zarplata\Zabbix\Request\Metric as ZabbixMetric;
+use Breenstorm\Zabbix\Request\Metric as ZabbixMetric;
 
 /**
  * Packet class - represents a set of Metrics
