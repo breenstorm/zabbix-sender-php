@@ -15,7 +15,7 @@ class Response
     /*
      * @var string
      */
-    private $responceStatus;
+    private $responseStatus;
 
     /**
      * @var int
@@ -44,7 +44,7 @@ class Response
 
     public function isSuccess(): bool
     {
-        return $this->responceStatus === self::SUCCESS_RESPONSE;
+        return $this->responseStatus === self::SUCCESS_RESPONSE;
     }
 
     public function getProcessedCount(): int
