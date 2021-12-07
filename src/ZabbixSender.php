@@ -1,11 +1,11 @@
 <?php
 
-namespace Zarplata\Zabbix;
+namespace Breenstorm\Zabbix;
 
-use Zarplata\Zabbix\Request\Packet as ZabbixPacket;
-use Zarplata\Zabbix\Response as ZabbixResponse;
-use Zarplata\Zabbix\Exception\ZabbixNetworkException;
-use Zarplata\Zabbix\Exception\ZabbixResponseException;
+use Breenstorm\Zabbix\Request\Packet as ZabbixPacket;
+use Breenstorm\Zabbix\Response as ZabbixResponse;
+use Breenstorm\Zabbix\Exception\ZabbixNetworkException;
+use Breenstorm\Zabbix\Exception\ZabbixResponseException;
 
 class ZabbixSender
 {
