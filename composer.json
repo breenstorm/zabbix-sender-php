@@ -1,11 +1,11 @@
 {
-    "name": "zarplata/zabbix-sender",
+    "name": "breenstorm/zabbix-sender",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Platonov Andrey",
-            "email": "a.platonov@office.ngs.ru"
+            "name": "",
+            "email": ""
         }
     ],
     "require": {
@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Zarplata\\Zabbix\\": "src"
+            "Breenstorm\\Zabbix\\": "src"
         }
     }
 }
