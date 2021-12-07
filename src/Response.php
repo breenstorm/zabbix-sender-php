@@ -84,7 +84,7 @@ class Response
             );
         }
 
-        $this->responceStatus = $response['response'];
+        $this->responseStatus = $response['response'];
 
         if (!isset($response['info'])) {
             throw new ZabbixResponseException(
