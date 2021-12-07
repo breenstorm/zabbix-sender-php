@@ -29,7 +29,7 @@ class Metric implements \JsonSerializable
 
     public function __construct(
         string $itemKey,
-        string $itemValue
+        $itemValue
     ) {
         $this->itemKey = $itemKey;
         $this->itemValue = $itemValue;
@@ -64,7 +64,7 @@ class Metric implements \JsonSerializable
         return [
             'host' => $this->hostname,
             'key' => $this->itemKey,
-            'value' => $this->itemValue,
+            'value' => json_encode($this->itemValue),
             'clock' => $this->timestamp
         ];
     }
