@@ -1,6 +1,6 @@
 <?php
 
-namespace Zarplata\Zabbix\Request;
+namespace Breenstorm\Zabbix\Request;
 
 /**
  * Metric class - represents a Zabbix item (key and value)
